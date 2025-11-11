@@ -2,9 +2,27 @@
 #define PERSON_H
 
 #include <string>
-using namespace std;
 
-//#write Person class here
+
+
+
+class person{
+    private:
+     string name;
+     int id;
+    public:
+     void display(){
+        cout<<"name"<<""<<name<<""<<"ID"<<""<<id<<endl;
+        }
+        person();
+    person(string name,int id){
+
+    }  
+    ~person(){
+
+    }  
+
+};s here
 
 
 
