@@ -4,7 +4,8 @@
 
 #include "Person.h"
 using namespace std;
-//#write Instructor class hereclass instructor :public person{
+//#write ructor class hereclass instructor :public person{
+class instructor {
     private:
     string department;
     int experienceYears;
